@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi Diah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Hobi Diah</h1>
+            <nav>
+                <a href="#home">Beranda</a>
+                <a href="#hobi">Hobi</a>
+                <a href="#gallery">Galeri</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Selamat Datang</h2>
+            <p>Halo, saya Diah, seorang guru Informatika yang juga sangat suka bermain game Mobile Legends dan beberapa hobi menarik lainnya. Selamat datang di tempat saya berbagi cerita tentang hobi saya.</p>
+            <img src="images/profile.jpg" alt="Foto Profil Diah" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Hobi Section -->
+    <section id="hobi" class="section">
+        <div class="container">
+            <h2>Hobi Saya</h2>
+            <div class="hobi-content">
+                <p>Saya sangat menikmati waktu bermain Mobile Legends untuk bersantai. Selain itu, saya juga tertarik pada fotografi dan mendengarkan musik.</p>
+                <ul class="hobi-list">
+                    <li>🎮 <strong>Game:</strong> Mobile Legends</li>
+                    <li>📷 <strong>Fotografi:</strong> Mengabadikan momen indah</li>
+                    <li>🎶 <strong>Musik:</strong> Menikmati berbagai genre musik</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Galeri</h2>
+            <div class="gallery-grid">
+                <img src="images/game.jpg" alt="Foto Game" class="gallery-img">
+                <img src="images/foto.jpg" alt="Fotografi" class="gallery-img">
+                <img src="images/music.jpg" alt="Musik" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Hubungi saya melalui media sosial atau isi formulir di bawah ini.</p>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hobi Diah - Dibuat dengan ❤️ oleh Diah</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
